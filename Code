@@ -1,4 +1,4 @@
-class Person():
+class SData():
     def __init__(self, nama='', nilai=''):
         self.nama = nama
         self.nilai = nilai
@@ -77,4 +77,4 @@ class Person():
             print("Opsi Tidak tertera, mohon diulangi..")
             self.menu()
 
-Mipa1 = Person()
+Mipa1 = SData()
